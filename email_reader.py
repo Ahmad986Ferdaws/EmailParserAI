@@ -3,7 +3,7 @@
 from imapclient import IMAPClient
 import email
 from email.header import decode_header
-import osa
+import os
 
 EMAIL_HOST = os.getenv("EMAIL_HOST")
 EMAIL_USER = os.getenv("EMAIL_USER")
